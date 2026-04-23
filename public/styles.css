@@ -78,6 +78,44 @@ main {
   text-align: center;
 }
 
+input[type=text] {
+  width: 80%;
+  padding: 12px;
+  border-radius: 999px;
+  margin: 10px 0;
+  border-color: var(--primary);
+  box-sizing: border-box;
+}
+
+input[type=tel] {
+  width: 80%;
+  padding: 12px;
+  border-radius: 999px;
+  border-color: var(--primary);
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+
+input[type=date] {
+  width: 80%;
+  padding: 12px;
+  border-radius: 999px;
+  border-color: var(--primary);
+
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  width: 80%;
+  padding: 12px;
+  border-radius: 999px;
+  border-color: var(--primary);
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
 .site-footer {
   background: var(--dark);
   color: var(--light);

@@ -124,7 +124,7 @@ function addButton({ label, type = "button", value, classes = "" }) {
   btn.name = "action";
   if (value) btn.value = value;
 
-  btn.className = `${BUTTON_BASE_CLASSES} ${classes}`.trim();
+  btn.className = `${BUTTON_BASE_CLASSES} ${classes} submit-button`.trim();
 
   const actions = $("customer-actions");
   actions.appendChild(btn);
